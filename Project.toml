@@ -1,0 +1,13 @@
+name = "GDF_test"
+uuid = "88443f08-8fc5-4d92-8e53-e50425b4571a"
+authors = ["Arsh Sharma", "Julia GEO"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
