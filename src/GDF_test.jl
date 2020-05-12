@@ -2,7 +2,7 @@ module GDF_test
 
 # greet() = print("Hello World!")
 
-import Tables, GeoJSON, DataFrames
+using Tables, GeoJSON, DataFrames
 
 include("tables.jl")
 include("io.jl")
