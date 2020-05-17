@@ -2,10 +2,10 @@ module GDF_test
 
 # greet() = print("Hello World!")
 
-using Tables, GeoJSON, DataFrames
+using GeoJSONTables, DataFrames
 
 include("tables.jl")
 include("io.jl")
 
-export GeoTable, gdf_from_geojson
+export GeoTable, gdf_from_geojson, read_gjt
 end # module
