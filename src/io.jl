@@ -10,6 +10,7 @@ function read_gjt(geojson_table)
         push!(geometry, get_geom(geojson_table[i]))
     end
     return properties, geometry
+end
 
 """ Getter method for fetching properties of a geojson table"""    
 function get_props(geojson_table_row) 
